@@ -9,22 +9,19 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var todos_component_1 = require('./components/todos.component');
-var AppComponent = (function () {
-    function AppComponent() {
+var TodosComponent = (function () {
+    function TodosComponent() {
     }
-    AppComponent = __decorate([
+    TodosComponent = __decorate([
         core_1.Component({
             moduleId: module.id,
-            selector: 'my-app',
-            templateUrl: 'app.component.html',
-            directives: [
-                todos_component_1.TodosComponent
-            ]
+            selector: 'app-todos',
+            templateUrl: 'todos.component.html',
+            styleUrls: ['todos.component.css']
         }), 
         __metadata('design:paramtypes', [])
-    ], AppComponent);
-    return AppComponent;
+    ], TodosComponent);
+    return TodosComponent;
 }());
-exports.AppComponent = AppComponent;
-//# sourceMappingURL=app.component.js.map
+exports.TodosComponent = TodosComponent;
+//# sourceMappingURL=todos.component.js.map
